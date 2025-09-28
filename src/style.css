@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+}
+
+.comic-detail-text {
+    @apply text-sm leading-[1.1] font-[400] text-[#777];
+}
+
+.btn-read-comic {
+    @apply !border-[#ff7a00] !bg-[#ff7a00] text-sm !text-white hover:!border-[rgb(228,102,0)] hover:!bg-[rgb(228,102,0)];
+}
+
+.btn-tag-menu {
+    @apply cursor-pointer rounded-xs border border-[#808080] bg-[#808080] px-2 py-1 text-white transition-colors duration-150 hover:border-[#bfbfbf] hover:bg-[#bfbfbf] disabled:cursor-auto disabled:border-[#bfbfbf] disabled:bg-[#bfbfbf];
+}
